@@ -2,8 +2,8 @@
 import java.io.*;
 import java.net.*;
 public class Client {
-    static String serverName = "192.168.5.2";
-    static int port = 10500;
+    static String serverName = "127.0.0.1";
+    static int port = 50100;
     public static void main(String[] args) throws IOException {
         Socket echoSocket = null;
         PrintWriter out = null;
