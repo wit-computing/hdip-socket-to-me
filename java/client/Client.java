@@ -2,7 +2,7 @@
 import java.io.*;
 import java.net.*;
 public class Client {
-    static String serverName = "127.0.0.1";
+    static String serverName = "10.0.1.130";
     static int port = 50100;
     public static void main(String[] args) throws IOException {
         Socket echoSocket = null;
